@@ -1,0 +1,38 @@
+.transactionHistory {
+  width: 100%; /* Займає всю доступну ширину контейнера */
+  border-collapse: collapse; /* Об'єднує межі комірок */
+  margin-bottom: 20px; /* Додає відступ знизу таблиці */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Додає легку тінь */
+  border-radius: 8px; /* Заокруглює кути таблиці */
+  overflow: hidden; /* Обрізає внутрішні елементи по межах border-radius */
+}
+
+.thead th {
+  background-color: #333; /* Темний фон для заголовків */
+  color: white; /* Білий колір тексту заголовків */
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #555; /* Товстіша нижня межа для заголовків */
+}
+
+.tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Світло-сірий фон для парних рядків */
+}
+
+.tbody td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd; /* Тонка нижня межа для комірок */
+}
+
+.tbody tr:last-child td {
+  border-bottom: none; /* Прибирає нижню межу для останнього рядка */
+}
+
+.tbody td:first-child {
+  border-left: none; /* Прибирає ліву межу для першої комірки в рядку */
+}
+
+.tbody td:last-child {
+  border-right: none; /* Прибирає праву межу для останньої комірки в рядку */
+}

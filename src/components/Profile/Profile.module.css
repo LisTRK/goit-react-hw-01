@@ -1,0 +1,73 @@
+.profileCard {
+  width: 300px;
+  margin: 20px auto;
+  padding-top: 20px;
+  border: 2px solid #706f6f;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.avatarContainer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 15px;
+  background-color: #d3d3d3;
+}
+
+.profilePhoto {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.tag {
+  font-size: 24px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.location {
+  font-size: 24px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.statsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.statsItem {
+  width: 103px;
+  text-align: center;
+  border: 1px solid slategray;
+}
+
+.statsLabel {
+  display: block;
+  font-size: 24px;
+  color: #2c2c2c;
+  margin-bottom: 3px;
+}
+
+.statsValue {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}

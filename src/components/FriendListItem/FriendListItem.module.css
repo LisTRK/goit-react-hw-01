@@ -1,0 +1,17 @@
+.item {
+}
+
+.item p {
+  margin: 0;
+  padding: 0;
+}
+
+.online {
+  font-size: 12px;
+  color: green;
+}
+
+.offline {
+  font-size: 12px;
+  color: red;
+}
